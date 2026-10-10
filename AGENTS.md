@@ -2,6 +2,10 @@
 
 https://nomomarket.netlify.app/
 
+## Pull Requests
+
+Always open PRs towards the upstream repo (`fkirc/openhands-workshop`), never towards the fork.
+
 ## Development
 
 - Clone the repo

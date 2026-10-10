@@ -34,19 +34,11 @@ export function MiniappCard({ app }: MiniappCardProps) {
 
         <p className="text-sm leading-6 text-zinc-400">{app.slogan}</p>
 
-        <div className="mt-auto flex flex-wrap gap-2">
-          {app.tags.map((tag) => (
-            <span key={tag} className="rounded-full bg-white/5 px-2.5 py-1 text-xs text-zinc-300">
-              {tag}
-            </span>
-          ))}
-        </div>
-
         <a
           href={app.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-white transition-colors hover:text-zinc-300"
+          className="mt-auto inline-flex items-center gap-1.5 text-sm font-medium text-white transition-colors hover:text-zinc-300"
         >
           Open miniapp
           <ArrowUpRightIcon className="h-4 w-4" />
